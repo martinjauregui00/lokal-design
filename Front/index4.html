@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>LD Login</title>
+</head>
+
+<body>
+    <div class="title">
+        <h1>Lo(k)al Design</h1>
+    </div>
+    <div class="menu">
+
+        <label for="btn-menu" class="lbl-menu">
+            <span id="spn1"></span>
+            <span id="spn2"></span>
+            <span id="spn3"></span>
+        </label>
+
+        <nav>
+            <ul>
+                <li><a href="index1.html">About</a></li>
+                <li><a href="index2.html">Catalog</a></li>
+                <li id="post"><a id="home" href="index4.html">Post</a></li>
+                <li id="logout"><a href="#">Logout</a></li>
+                <li id="login"><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <div class="formulario">
+        <br>
+        <h1 id="saludo"></h1>
+        <br>
+        <form>
+            <ul>
+                <li>
+                    <label>Selecciona una categoría: </label>
+                    <select id="inputCategory">
+                        <option disabled selected>Select category</option>
+                        <option>Painting & Sculpture</option>
+                        <option>Installation & Plants</option>
+                        <option>Creative spaces & Artist</option>
+                    </select>
+                </li>
+                <br>
+                <li>
+                    <label>Nombre de la entidad/artista: </label>
+                    <input type="text" id="inputName">
+                </li>
+                <br>
+                <li>
+                    <label>Descripción: </label>
+                    <textarea id="inputData"></textarea>
+                </li>
+                <br>
+                <li>
+                    <label>Foto url: </label>
+                    <input type="text" id="inputUrl">
+                </li>
+                <br>
+                <li>
+                    <label>Instagram: </label>
+                    <input type="text" id="inputInstagram">
+                </li>
+                <br>
+                <button id="postButton">Post</button>
+            </ul>
+        </form>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>You have succesfully posted your info :)</p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

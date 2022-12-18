@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>LD RegistroLogin</title>
+</head>
+
+<body>
+    <div class="title">
+        <h1>Lo(k)al Design</h1>
+    </div>
+    <div class="menu">
+
+        <label for="btn-menu" class="lbl-menu">
+            <span id="spn1"></span>
+            <span id="spn2"></span>
+            <span id="spn3"></span>
+        </label>
+
+        <nav>
+            <ul>
+                <li><a href="index1.html">About</a></li>
+                <li><a href="index2.html">Catalog</a></li>
+                <li id="post"><a  href="index4.html">Post</a></li>
+                <li id="logout"><a href="#">Logout</a></li>
+                <li id="login"><a id="home" href="login.html">Login</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <div class="login">
+        <form class="form">
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="inputContainer">
+                <input type="text" id="username" placeholder="username">
+            </div>
+
+            <div class="inputContainer">
+                <input type="password" id="password" placeholder="password">
+            </div>
+
+            <input type="submit" id="loginBtn" value="Sing in">
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="registro">
+        <form class="form">
+            <div class="inputContainer">
+                <input type="text" id="emailReg" placeholder="email">
+            </div>
+
+            <div class="inputContainer">
+                <input type="text" id="usernameReg" placeholder="username">
+            </div>
+
+            <div class="inputContainer">
+                <input type="password" id="passwordReg" placeholder="password">
+            </div>
+
+            <input type="submit" id="singUpBtn" value="Sign up">
+        </form>
+    
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>You have succesfully registered :)</p>
+            </div>
+        </div>
+
+    </div>
+
+    
+    <script type="text/javascript" src="scriptLogin.js"></script>
+
+</body>
+
+</html>
