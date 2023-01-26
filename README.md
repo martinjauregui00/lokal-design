@@ -6,4 +6,4 @@ Aplicación web para mostrar diseñadores locales
 
 Esta aplicación web es una red local de artistas, diseñadores, proveedores, curators etc, para mostrar y ampliar la red vasca de arte y que haya una mayor participación a nivel local.
 En esta plataforma encontramos un catálago con diferentes categorías en las que empresas o gente interesada en captar gente para algún proyecto tenga acceso a datos y portfolio de artistas o entidades creativas que esten afincadas en Bilbao.
-Ademas, existe la posibilad logeandote de postear tu perfil en la categoría que creas conveniente y esto se añade a la base de datos y se muestra en el catálogo.
+Ademas, existe la posibilidad, logeándote, de postear tu perfil en la categoría que creas conveniente y esto se añade a la base de datos y se muestra en el catálogo.
